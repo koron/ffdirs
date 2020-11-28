@@ -1,0 +1,6 @@
+tags
+tmp/
+
+# ignore executables
+ffdirs
+ffdirs.exe
