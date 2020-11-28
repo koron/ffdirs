@@ -26,11 +26,19 @@ ffdirs [OPTIONS] {file names...}
 ### Options
 
 *   `-srcenv` string
+
     name of environment variables of directory list (default "PATH")
 *   `-verbose`
+
     verbose message
 
 ### Example
+
+```console
+$ ffdirs vim
+```
+
+Find `vim` file from directory list in PATH environment variable.
 
 ```console
 $ ffdirs -srcenv INCLUDE stdio.h
