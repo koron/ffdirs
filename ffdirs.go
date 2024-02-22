@@ -26,6 +26,9 @@ func ffdirs() error {
 	}
 	checked := map[string]struct{}{}
 	for _, dir := range dirs {
+		if dir == "" {
+			continue
+		}
 		if _, ok := checked[dir]; ok {
 			log.Printf("skip a duplicated directly: %s", dir)
 			continue
