@@ -2,7 +2,6 @@
 
 [![PkgGoDev](https://pkg.go.dev/badge/github.com/koron/ffdirs)](https://pkg.go.dev/github.com/koron/ffdirs)
 [![Actions/Go](https://github.com/koron/ffdirs/workflows/Go/badge.svg)](https://github.com/koron/ffdirs/actions?query=workflow%3AGo)
-[![Go Report Card](https://goreportcard.com/badge/github.com/koron/ffdirs)](https://goreportcard.com/report/github.com/koron/ffdirs)
 
 **ffdirs** finds files from PATH directory list.
 
