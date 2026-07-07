@@ -1,0 +1,24 @@
+# Please see the documentation for all configuration options:
+# https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+
+updates:
+
+  - package-ecosystem: "github-actions" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "weekly"
+    groups:
+      ghthub-actions-group:
+        patterns: ["*"]
+
+  - package-ecosystem: "gomod"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      go-all-dependencies:
+        patterns: ["*"]
+
+# $Hash:2b8a69882cf27ad1ff43ff8a833decf3d0df54c1effeb8efb5bb8244$
